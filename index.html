@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" >
+    <script src="js/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Ping Pong</title>
+  </head>
+  <body>
+    <!-- Start of Header -->
+    <div id="jumbo" class="jumbotron">
+      <br><br>
+      <h1>Ping Pong</h1>
+    </div>
+    <!-- Start of Header -->
+    <div class="container-fluid">
+      <div class="row">
+        <div id="sidebar" class="col-md-4">
+          
+          <img id="crab" src="img/crab.gif">
+          <br><br><br><br><br><br>
+        </div>
+        <div id="content" class="col-md-8">
+          <h1>Let's Play!!</h1>
+          <h2>Rules:</h2>
+          <p>
+            Ping Pong will count up to your number with the following exceptions:
+          </p>
+          <ol>
+            <li>Numbers divisible by 3 become "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by both 3 and 5 become "pingpong"</li>
+          </ol>
+          <form class="form-inline">
+            <label>Enter your number here: </label>
+            <input id="input" class="form-control" type="text">
+            <button class="btn btn-default btn-lg">PingPong</button>
+          </form>
+          <br><br><br><br><br><br>
+          <div>
+            <ul id="output">
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

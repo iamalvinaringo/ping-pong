@@ -1,0 +1,60 @@
+
+
+#jumbo {
+  background-image: url("../img/mario.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px
+}
+
+#jumbo h1 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#content {
+  background-color: #000000;
+  height: auto;
+}
+
+#content h1{
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#content h2{
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#content p{
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+}
+#content ol{
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#content ul{
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+label {
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#sidebar {
+  font-family: 'Press Start 2P', cursive;
+}
+
+#crab {
+  height: 400px;
+  width: 400px;
+}
+
+#content butt
